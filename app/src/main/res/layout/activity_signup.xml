@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to LinkWork"
+            android:layout_gravity="center"
+            android:textSize="11sp"
+            android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etCompanyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter Your Company name"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="14dp" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter your name"
+        android:inputType="textPassword"
+        android:padding="14dp" />
+
+        //male female
+        <EditText
+            android:id="@+id/etMobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Enter your name"
+            android:inputType="textPassword"
+            android:padding="14dp" />
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:padding="14dp" />
+
+        <EditText
+            android:id="@+id/etPasswordcheak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Re-Enter your password"
+            android:inputType="textPassword"
+            android:padding="14dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payable Amount: Rs: 3000/-
+Valid Till: (01-05-2022)"
+            android:textStyle="bold"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="I agrre the terms and Conditions "
+        />
+
+
+
+    <Button
+
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:text="Create an account and Pay"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:padding="15dp"/>
+        />
+        <TextView
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Already have an account ? Sign in "
+
+            android:gravity="center"/>
+    </LinearLayout>
+</ScrollView>
